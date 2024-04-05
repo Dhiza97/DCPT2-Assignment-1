@@ -4,54 +4,204 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div>
-        <a href="index.html">Home Page</a> |
-        <a href="form.html">Form page</a> |
-        <a href="table.html">Table Page</a>
+    <div class="main-content">
+        <div class="links">
+            <a href="index.html">Home Page</a> |
+            <a href="table.html">Calculator</a>
+        </div>
+        
+        <section>
+            <h1 class="intro"><span>I'm Joseph Garba</span>, <br> Backend developer based in Nigeria</h1>
+        </section>
+
+        <section class="summary">
+            <h2 class="header">Summary</h2>
+            <article>
+                I'm a passionate web developer specializing in Backend technologies. I thrive in collaborative environments, delivering exceptional results across diverse projects. Eager to contribute my expertise to impactful projects and push the boundaries of web development.
+            </article>
+
+            <h2 class="header">Goal</h2>
+            <article>
+                My goal for this diploma course is to enhance my skills in web development and build innovative projects. Learn to collaborate to others in the field and build quality connections.
+            </article>
+        </section>
+        
+        <hr>
+
+        <!-- Education section -->
+        <div>
+            <h3 class="header">Education</h3>
+            <ul id="education">
+                <li>- Hope Primary School <span>(2003 - 2008)</span></li>
+                <li>- Falomo High School <span>(2008 - 2014)</span></li>
+                <li>- Nexford University <span>(2021 - 2022)</span></li>
+            </ul>
+        </div>
+
+        <!-- Experience Sectiion -->
+        <div>
+            <h3 class="header">Experience</h3>
+            
+            <ol id="work">
+                <li class="role">Renee Supermartket - Shop Floor Assistant (June 2014 - July 2014)</li>
+                <details>
+                    <summary><b>Details...</b></summary>
+                    <ul>
+                        <li>
+                            - Working as a shop floor assistant at Renee supermarket, I was responsible for assisting customers with their shopping
+                        </li>
+                        <li>
+                            - Responsible for making sure product price tags were always on the shelf and up to date.
+                        </li>
+                        <li>
+                            - Responsible for making sure there are no expired products on the shelf.
+                        </li>
+                    </ul>
+                </details>
+
+                <br>
+
+                <li class="role">Supermart.ng - Fulfilment Associate (March 2016 - May 2016)</li>
+                <details>
+                    <summary><b>Details...</b></summary>
+                    <ul>
+                        <li>
+                            - I was a part of the operations team responsible for picking the orders of customers and making sure they are accurate.
+                        </li>
+                        <li>
+                            - Responsible for quality check before items are delivered.
+                        </li>
+                    </ul>
+                </details>
+
+                <br>
+
+                <li class="role">Supermart.ng - Merchandise Analyst (May 2016 - January 2020)</li>
+                <details>
+                    <summary><b>Details...</b></summary>
+                    <ul>
+                        <li>
+                            - Responsible for the accurate display of product names, images and prices.
+                        </li>
+                        <li>
+                            - Responsible for getting vendors with good and afforable prices to list on the website.
+                        </li>
+                        <li>
+                            - Making sure daily analysis report is done and sent out show sales of the previous day.
+                        </li>
+                        <li>
+                            - Making sure stocks on the website are always up to date.
+                        </li>
+                        <li>
+                            - Did quarterly analysis of sales.
+                        </li>
+                    </ul>
+                </details>
+
+                <br>
+
+                <li class="role">My Small Space - Inventory Assistant (August 2020 - July 2021)</li>
+                <details>
+                    <summary><b>Details...</b></summary>
+                    <ul>
+                        <li>
+                            - Managed the website in the aspect of updating stocks, accurate display of images, prices  and products.
+                        </li>
+                    </ul>
+                </details>
+            </ol>
+        </div>
+
+        <!-- Hobby section -->
+        <div class="hobby">
+            <h3 class="header">Hobbies & Interests</h3>
+            <ul>
+                <li>- I enjoy playing video games in my free time.</li>
+                <li>- Swimming</li>
+                <li>- Reading books about God and self development.</li>
+                <li>- Travelling new places</li>
+                <li>- Cooking</li>
+            </ul>
+
+        </div>
+
+        <!-- Skills section -->
+        <section>
+            <h3 class="header">Skills</h3>
+            <ul>
+                <li>- Microsoft Excel</li>
+                <li>- Problem solving</li>
+                <li>- Good communication</li>
+                <li>- HTML/CSS</li>
+                <li>- JavaScript</li>
+                <li>- NodeJS / ExpressJS</li>
+                <li>- MongoDB</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <!-- Contact section -->
+        <div class="contact-header">
+            <h2 class="header">Get in touch</h2>
+        </div>
+        
+        <div class="contact-info">
+            <div class="data">
+                <h3 class="header">Let's talk</h3>
+                <p class="sub-info">
+                    I'm currently available take on new projects, so feel free to send me a message about anything that you want me to work on. You can contact me anytime.
+                </p>
+                <p class="info-list">✉️ <span>Josephgarba97@gmail.com</span></p>
+                <p class="info-list">🤙🏽 <span>+234-7016-259-682</span></p>
+                <p class="info-list">📍 <span>Lagos, Nigeria</span></p>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <form action="#" method="post">
+                    <div>
+                        <label for="name">Your Name</label><br>
+                        <input type="text" id="name" name="name" placeholder="Joseph Dhiza" size="25" required>
+                    </div>
+                    
+                    <div>
+                        <label for="email"> Your Email</label><br>
+                        <input type="email" id="email" name="email" placeholder="JosephDhiza@example.com" size="25" required>
+                    </div>
+                    
+                    <div>
+                        <label for="message">Write your message here</label><br>
+                        <textarea id="message" name="message" placeholder="Your message..." rows="6" cols="20"required></textarea><br>
+                    </div>
+                    
+                    <div>
+                        <label for="priority">Priority:</label><br>
+                        <select id="priority" name="priority">
+                            <option value="" disabled selected>Select an option</option>
+                            <option value="low">Low</option>
+                            <option value="medium">Medium</option>
+                            <option value="high">High</option>
+                        </select><br>
+                    </div>
+                    
+                    <button type="submit">Send Message</button> 
+                </form>
+            </div>
+        </div>
+        
     </div>
-    
-    <section>
-        <h1>Joseph Garba</h1>
-        <p>
-            I am a passionate web developer with a keen interest in Backend technologies.
-        </p>
-        <p>
-            My goal for this diploma course is to enhance my skills in web development and build innovative projects. Learn to collaborate to other in the field and build quality connections.
-        </p>
-    </section>
-    
-    <hr>
 
-    <!-- About section -->
-    <div>
-        <h2>About Me:</h2>
-        <p>
-            I love coding, exploring new technologies, and creating user-friendly interfaces.
-        </p>
-    </div>
-
-    <!-- Skills section -->
-    <section>
-        <h2>Skills: </h2>
-        <ul>
-            <li>HTML/CSS</li>
-            <li>JavaScript</li>
-            <li>NodeJS / ExpressJS</li>
-            <li>MongoDB</li>
-        </ul>
-    </section>
-
-    <!-- Contact section -->
-    <section>
-        <h3>Contact Me:</h3>
-        <p>Name: <b>Joseph Garba</b></p>
-        <p>Email: <b>joseph.garba@filler.com</b></p>
-        <p>
-            Message: <b>Feel free to reach out for any inquiries or collaborations!</b>
-        </p>
-    </section>
+    <footer>
+        © Joseph Garba | All Rights Reserved
+        2024
+    </footer>
     
 </body>
 </html>

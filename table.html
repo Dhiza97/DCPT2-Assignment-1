@@ -3,44 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alphabetical Data</title>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/calculator.css">
 </head>
 <body>
     <div>
         <a href="index.html">Home Page</a> |
-        <a href="form.html">Form page</a> |
-        <a href="table.html">Table Page</a>
+        <a href="table.html">Calculator</a>
     </div>
-    
-    <table border="1">
-        <tr>
-            <td>A</td>
-            <td>B</td>
-            <td>C</td>
-            <td>D</td>
-            <td>E</td>
-            <td>F</td>
-            <td>G</td>
-            <td>H</td>
-            <td>I</td>
-            <td>J</td>
-            <td>K</td>
-            <td>L</td>
-            <td>M</td>
-            <td>N</td>
-            <td>O</td>
-            <td>P</td>
-            <td>Q</td>
-            <td>R</td>
-            <td>S</td>
-            <td>T</td>
-            <td>U</td>
-            <td>V</td>
-            <td>W</td>
-            <td>X</td>
-            <td>Y</td>
-            <td>Z</td>
-        </tr>
-    </table>
+
+    <div class="calculator">
+        <div>
+            <input class="display" type="text" readonly>
+        </div>
+
+        <div class="buttons">
+            <div class="button-grid">
+                <button class="grey">AC</button>
+                <button class="grey">+/-</button>
+                <button class="grey">%</button>
+                <button class="orange">÷</button>
+              </div>
+
+              <div class="button-grid">
+                <button class="dark">7</button>
+                <button class="dark">8</button>
+                <button class="dark">9</button>
+                <button class="orange">x</button>
+              </div>
+
+              <div class="button-grid">
+                <button class="dark">4</button>
+                <button class="dark">5</button>
+                <button class="dark">6</button>
+                <button class="orange">-</button>
+              </div>
+
+              <div class="button-grid">
+                <button class="dark">3</button>
+                <button class="dark">2</button>
+                <button class="dark">1</button>
+                <button class="orange">+</button>
+              </div>
+
+              <div class="button-grid last-row">
+                <button class="big-button dark">0</button>
+                <button class="dark">.</button>
+                <button class="orange">=</button>
+              </div>
+        </div>
+        
+        
+    </div>
 </body>
 </html>
