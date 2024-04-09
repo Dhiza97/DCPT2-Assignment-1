@@ -79,11 +79,19 @@ hr {
 
 /* Hero Section */
 .intro-hero {
-    margin-top: 100px;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.intro {
+.profile-img img {
+    border-radius: 50%;
+    width: 190px;
+}
+
+.intro-hero .intro {
     text-align: center;
     padding: 50px 0 60px;
     font-size: 1.8em;
@@ -91,18 +99,6 @@ hr {
 
 .intro span {
     font-size: 2.5em;
-}
-
-.profile-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-}
-
-.profile-img img {
-    border-radius: 50%;
-    width: 190px;
 }
 
 /* Summary section*/
@@ -113,11 +109,14 @@ hr {
     text-align: center;
 }
 
-.summary article {
-
+/* Contact section */
+#education,
+#experience,
+#hobbies,
+#skills {
+    margin-bottom: 100px;
 }
 
-/* Contact section */
 .contact-header .header {
     text-align: center;
     font-size: 2.5em;
@@ -226,6 +225,9 @@ footer {
     padding: 20px;
     background: var(--grey);
 }
+
+
+/* Mobile responsiveness */
 
 @media only screen and (max-width: 1090px) {
 
