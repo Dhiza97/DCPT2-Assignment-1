@@ -79,7 +79,8 @@ hr {
 
 /* Hero Section */
 .intro-hero {
-    margin: 140px 0;
+    margin-top: 100px;
+    height: 100vh;
 }
 
 .intro {
@@ -108,8 +109,12 @@ hr {
 .summary {
     padding: 50px 0;
     margin: 0 auto;
-    width: 70%;
+    width: 60rem;
     text-align: center;
+}
+
+.summary article {
+
 }
 
 /* Contact section */
@@ -218,6 +223,45 @@ hr {
 /* Footer */
 footer {
     text-align: center;
-    padding: 25px;
+    padding: 20px;
     background: var(--grey);
+}
+
+@media only screen and (max-width: 1090px) {
+
+    .main-content {
+        width: 100%;
+        margin:30px;
+    }
+
+    .summary {
+        width: 85%;
+        margin: 0 20px;
+    }
+
+    .summary article {
+        font-size: 1em;
+    }
+
+    .contact-info .sub-info {
+        width: 170%;
+    }
+
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-form form input, textarea {
+        width: 300px;
+        height: 50px;
+    }
+
+    #priority {
+        width: 300px;
+    }
+
+    .contact-form form button {
+        width: 300px;
+    }
 }
