@@ -231,18 +231,26 @@ footer {
 
 @media only screen and (max-width: 1090px) {
 
+    hr {
+        margin: 0 auto;
+    }
+
     .main-content {
         width: 100%;
-        margin:30px;
+        margin:20px;
     }
 
     .summary {
         width: 85%;
-        margin: 0 20px;
+        margin: 0;
     }
 
     .summary article {
         font-size: 1em;
+    }
+
+    .hobbies ul {
+        width: -15%;
     }
 
     .contact-info .sub-info {
@@ -255,15 +263,15 @@ footer {
     }
 
     .contact-form form input, textarea {
-        width: 300px;
+        width: 320px;
         height: 50px;
     }
 
     #priority {
-        width: 300px;
+        width: 320px;
     }
 
     .contact-form form button {
-        width: 300px;
+        width: 320px;
     }
 }
