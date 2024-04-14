@@ -52,6 +52,7 @@ hr {
 }
 
 .header, .intro span {
+    font-size: 2.5em;
     color: var(--purple);
     background: var(--purple);
     -webkit-background-clip: text;
@@ -95,10 +96,6 @@ hr {
     text-align: center;
     padding: 50px 0 60px;
     font-size: 1.8em;
-}
-
-.intro span {
-    font-size: 2.5em;
 }
 
 /* Summary section*/
@@ -230,6 +227,10 @@ footer {
 /* Mobile responsiveness */
 
 @media only screen and (max-width: 1090px) {
+
+    .header, .intro span {
+        font-size: 2em;
+    }
 
     hr {
         margin: 0 auto;
